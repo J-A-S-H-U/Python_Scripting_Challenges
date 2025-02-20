@@ -60,3 +60,7 @@ if __name__ == "__main__":
     source, dest = args[1:]
 
     main(source, dest)
+
+
+
+    ##command line argument: C:\Users\jaswa\Python_Scripting_Challenges\change_v_to_sv>python change_v_to_sv.py Files Newfiles
