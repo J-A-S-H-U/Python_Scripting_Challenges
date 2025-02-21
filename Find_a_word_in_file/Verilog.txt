@@ -1,0 +1,29 @@
+Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. 
+It is most commonly used in the design and verification of digital circuits, with the highest level of abstraction being at the register-transfer level. 
+It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design of genetic circuits.
+[1] In 2009, the Verilog standard (IEEE 1364-2005) was merged into the SystemVerilog standard, creating IEEE Standard 1800-2009. 
+Since then, Verilog has been officially part of the SystemVerilog language. 
+The current version is IEEE standard 1800-2023.
+Hardware description languages such as Verilog are similar to software programming languages because they include ways of describing the propagation time and signal strengths (sensitivity). 
+There are two types of assignment operators; a blocking assignment (=), and a non-blocking (<=) assignment. 
+The non-blocking assignment allows designers to describe a state-machine update without needing to declare and use temporary storage variables. 
+Since these concepts are part of Verilog's language semantics, designers could quickly write descriptions of large circuits in a relatively compact and concise form. 
+At the time of Verilog's introduction (1984), Verilog represented a tremendous productivity improvement for circuit designers who were already using graphical schematic capture software and specially written software programs to document and simulate electronic circuits.
+The designers of Verilog wanted a language with syntax similar to the C programming language, which was already widely used in engineering software development. 
+Like C, Verilog is case-sensitive and has a basic preprocessor (though less sophisticated than that of ANSI C/C++). 
+Its control flow keywords (if/else, for, while, case, etc.) are equivalent, and its operator precedence is compatible with C. 
+Syntactic differences include: required bit-widths for variable declarations, demarcation of procedural blocks (Verilog uses begin/end instead of curly braces {}), and many other minor differences. 
+Verilog requires that variables be given a definite size. 
+In C these sizes are inferred from the 'type' of the variable (for instance an integer type may be 32 bits).
+A Verilog design consists of a hierarchy of modules. 
+Modules encapsulate design hierarchy, and communicate with other modules through a set of declared input, output, and bidirectional ports. 
+Internally, a module can contain any combination of the following: net/variable declarations (wire, reg, integer, etc.), concurrent and sequential statement blocks, and instances of other modules (sub-hierarchies). 
+Sequential statements are placed inside a begin/end block and executed in sequential order within the block. 
+However, the blocks themselves are executed concurrently, making Verilog a dataflow language.
+Verilog's concept of 'wire' consists of both signal values (4-state: "1, 0, floating, undefined") and signal strengths (strong, weak, etc.). 
+This system allows abstract modeling of shared signal lines, where multiple sources drive a common net. 
+When a wire has multiple drivers, the wire's (readable) value is resolved by a function of the source drivers and their strengths.
+A subset of statements in the Verilog language are synthesizable. 
+Verilog modules that conform to a synthesizable coding style, known as RTL (register-transfer level), can be physically realized by synthesis software. 
+Synthesis software algorithmically transforms the (abstract) Verilog source into a netlist, a logically equivalent description consisting only of elementary logic primitives (AND, OR, NOT, flip-flops, etc.) that are available in a specific FPGA or VLSI technology. 
+Further manipulations to the netlist ultimately lead to a circuit fabrication blueprint (such as a photo mask set for an ASIC or a bitstream file for an FPGA).
