@@ -1,4 +1,8 @@
 Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. 
+
+
+
+
 It is most commonly used in the design and verification of digital circuits, with the highest level of abstraction being at the register-transfer level. 
 It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design of genetic circuits.
 [1] In 2009, the Verilog standard (IEEE 1364-2005) was merged into the SystemVerilog standard, creating IEEE Standard 1800-2009. 
