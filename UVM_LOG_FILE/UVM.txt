@@ -1,0 +1,424 @@
+cd {\\thoth.cecs.pdx.edu\Home03\jaswanth\Desktop\UVM\UVM}
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:59:56 on Feb 22,2025
+# vlog -reportprogress 300 -lint fa.sv 
+# -- Compiling module fa
+# 
+# Top level modules:
+# 	fa
+# End time: 18:59:56 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:59:56 on Feb 22,2025
+# vlog -reportprogress 300 -lint rca.sv 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 18:59:56 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:59:56 on Feb 22,2025
+# vlog -reportprogress 300 -lint lpffir_core.sv 
+# -- Compiling module lpffir_core
+# 
+# Top level modules:
+# 	lpffir_core
+# End time: 18:59:57 on Feb 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:59:57 on Feb 22,2025
+# vlog -reportprogress 300 -lint design.sv 
+# -- Compiling module lpffir_axis
+# 
+# Top level modules:
+# 	lpffir_axis
+# End time: 18:59:57 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:59:57 on Feb 22,2025
+# vlog -reportprogress 300 -lint uvmtb_top.sv 
+# -- Compiling module uvmtb_top
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) uvmtb_top.sv(6): Using implicit +incdir+C:/questasim64_2024.2/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling interface rx_intf
+# -- Compiling interface tx_intf
+# 
+# Top level modules:
+# 	uvmtb_top
+# End time: 18:59:57 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.uvmtb_top 
+# Start time: 18:59:57 on Feb 22,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.uvmtb_top(fast)
+# Loading C:/questasim64_2024.2/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO test.sv(11) @ 0: uvm_test_top [TEST CLASS] INSIDE CONSTRUCTOR!
+# UVM_INFO @ 0: reporter [RNTST] Running test uvmtest...
+# UVM_INFO test.sv(17) @ 0: uvm_test_top [TEST CLASS] INSIDE BUILD PHASE!
+# UVM_INFO environment.sv(14) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Inside Constructor!
+# UVM_INFO environment.sv(20) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Build Phase!
+# UVM_INFO rx_agent.sv(11) @ 0: uvm_test_top.e0.agnt_rx [rx_agent] Inside Constructor!
+# UVM_INFO tx_agent.sv(11) @ 0: uvm_test_top.e0.agnt_tx [tx_agent] Inside Constructor!
+# UVM_INFO scoreboard.sv(21) @ 0: uvm_test_top.e0.scb [SCOREBOARD] Inside Constructor!
+# UVM_INFO reference.sv(14) @ 0: uvm_test_top.e0.cov [SCOREBOARD] Inside Constructor!
+# UVM_INFO rx_agent.sv(18) @ 0: uvm_test_top.e0.agnt_rx [rx_agent] BUILD PHASE!
+# UVM_INFO rx_sequencer.sv(7) @ 0: uvm_test_top.e0.agnt_rx.s0_rx [rx_sequencer] Inside Constructor!
+# UVM_INFO rx_driver.sv(11) @ 0: uvm_test_top.e0.agnt_rx.d0_rx [rx_driver] Inside Constructor!
+# UVM_INFO rx_monitor.sv(11) @ 0: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor] Inside Constructor!
+# UVM_INFO rx_driver.sv(18) @ 0: uvm_test_top.e0.agnt_rx.d0_rx [rx_driver] Build Phase!
+# UVM_INFO rx_monitor.sv(17) @ 0: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor] Inside Build Phase!
+# UVM_INFO rx_sequencer.sv(13) @ 0: uvm_test_top.e0.agnt_rx.s0_rx [rx_sequencer] Build Phase!
+# UVM_INFO tx_agent.sv(18) @ 0: uvm_test_top.e0.agnt_tx [tx_agent] BUILD PHASE!
+# UVM_INFO tx_sequencer.sv(7) @ 0: uvm_test_top.e0.agnt_tx.s0_tx [tx_sequencer] Inside Constructor!
+# UVM_INFO tx_driver.sv(11) @ 0: uvm_test_top.e0.agnt_tx.d0_tx [tx_driver] Inside Constructor!
+# UVM_INFO tx_monitor.sv(11) @ 0: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] Inside Constructor!
+# UVM_INFO tx_driver.sv(18) @ 0: uvm_test_top.e0.agnt_tx.d0_tx [tx_driver] Build Phase!
+# UVM_INFO tx_monitor.sv(17) @ 0: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] Inside Build Phase!
+# UVM_INFO tx_sequencer.sv(13) @ 0: uvm_test_top.e0.agnt_tx.s0_tx [tx_sequencer] Build Phase!
+# UVM_INFO reference.sv(20) @ 0: uvm_test_top.e0.cov [SCOREBOARD] Build phase!
+# UVM_INFO scoreboard.sv(27) @ 0: uvm_test_top.e0.scb [SCOREBOARD] Build phase!
+# UVM_INFO rx_driver.sv(31) @ 0: uvm_test_top.e0.agnt_rx.d0_rx [rx_driver] Connect Phase!
+# UVM_INFO rx_monitor.sv(28) @ 0: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor] Inside Connect Phase!
+# UVM_INFO rx_sequencer.sv(19) @ 0: uvm_test_top.e0.agnt_rx.s0_rx [rx_sequencer] Connect Phase!
+# UVM_INFO rx_agent.sv(27) @ 0: uvm_test_top.e0.agnt_rx [rx_agent] CONNECT PHASE!
+# UVM_INFO tx_driver.sv(31) @ 0: uvm_test_top.e0.agnt_tx.d0_tx [tx_driver] Connect Phase!
+# UVM_INFO tx_monitor.sv(28) @ 0: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] Inside Connect Phase!
+# UVM_INFO tx_sequencer.sv(19) @ 0: uvm_test_top.e0.agnt_tx.s0_tx [tx_sequencer] Connect Phase!
+# UVM_INFO tx_agent.sv(27) @ 0: uvm_test_top.e0.agnt_tx [tx_agent] CONNECT PHASE!
+# UVM_INFO reference.sv(32) @ 0: uvm_test_top.e0.cov [SCOREBOARD] Connect Phase!
+# UVM_INFO scoreboard.sv(38) @ 0: uvm_test_top.e0.scb [SCOREBOARD] Connect Phase!
+# UVM_INFO environment.sv(32) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Connect Phase!
+# UVM_INFO test.sv(24) @ 0: uvm_test_top [TEST CLASS] INSIDE CONNECT PHASE!
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------------------
+# Name                       Type                                Size  Value
+# --------------------------------------------------------------------------
+# uvm_test_top               uvmtest                             -     @475 
+#   e0                       env                                 -     @482 
+#     agnt_rx                rx_agent                            -     @489 
+#       d0_rx                rx_driver                           -     @627 
+#         rsp_port           uvm_analysis_port                   -     @642 
+#         seq_item_port      uvm_seq_item_pull_port              -     @634 
+#       mon_rx               rx_monitor                          -     @650 
+#         monitor_port_rx    uvm_analysis_port                   -     @658 
+#       s0_rx                rx_sequencer                        -     @518 
+#         rsp_export         uvm_analysis_export                 -     @525 
+#         seq_item_export    uvm_seq_item_pull_imp               -     @619 
+#         arbitration_queue  array                               0     -    
+#         lock_queue         array                               0     -    
+#         num_last_reqs      integral                            32    'd1  
+#         num_last_rsps      integral                            32    'd1  
+#     agnt_tx                tx_agent                            -     @496 
+#       d0_tx                tx_driver                           -     @782 
+#         rsp_port           uvm_analysis_port                   -     @797 
+#         seq_item_port      uvm_seq_item_pull_port              -     @789 
+#       mon_tx               tx_monitor                          -     @805 
+#         monitor_port_tx    uvm_analysis_port                   -     @813 
+#       s0_tx                tx_sequencer                        -     @673 
+#         rsp_export         uvm_analysis_export                 -     @680 
+#         seq_item_export    uvm_seq_item_pull_imp               -     @774 
+#         arbitration_queue  array                               0     -    
+#         lock_queue         array                               0     -    
+#         num_last_reqs      integral                            32    'd1  
+#         num_last_rsps      integral                            32    'd1  
+#     cov                    reference                           -     @510 
+#       ref_result_port      uvm_analysis_port                   -     @835 
+#       rx_reference_port    uvm_analysis_imp                    -     @827 
+#     scb                    scoreboard                          -     @503 
+#       mon_result_import    uvm_analysis_imp_mon_result_port    -     @855 
+#       rx_reference_import  uvm_analysis_imp_rx_reference_port  -     @847 
+# --------------------------------------------------------------------------
+# 
+# UVM_INFO test.sv(31) @ 0: uvm_test_top [TEST CLASS] INSIDE RUN PHASE!
+# UVM_INFO environment.sv(42) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Inside Run Phase!
+# UVM_INFO scoreboard.sv(45) @ 0: uvm_test_top.e0.scb [SCOREBOARD] Run Phase!
+# UVM_INFO reference.sv(39) @ 0: uvm_test_top.e0.cov [SCOREBOARD] Run Phase!
+# UVM_INFO tx_agent.sv(34) @ 0: uvm_test_top.e0.agnt_tx [tx_agent] INSIDE BUILD PHASE!
+# UVM_INFO tx_monitor.sv(34) @ 0: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] Inside Run Phase!
+# UVM_INFO tx_driver.sv(39) @ 0: uvm_test_top.e0.agnt_tx.d0_tx [tx_driver] Inside run Phase!
+# UVM_INFO rx_agent.sv(34) @ 0: uvm_test_top.e0.agnt_rx [rx_agent] INSIDE BUILD PHASE!
+# UVM_INFO rx_monitor.sv(34) @ 0: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor] Inside Run Phase!
+# UVM_INFO rx_driver.sv(39) @ 0: uvm_test_top.e0.agnt_rx.d0_rx [rx_driver] Inside run Phase!
+# UVM_INFO rx_sequence.sv(14) @ 0: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# UVM_INFO tx_sequence.sv(13) @ 0: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# UVM_INFO rx_sequence.sv(18) @ 0: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =43674
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO tx_sequence.sv(17) @ 0: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 15 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 15: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 25 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 25: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 25: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           0
+# UVM_INFO rx_sequence.sv(14) @ 25: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# UVM_INFO tx_sequence.sv(21) @ 25: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           0
+# UVM_INFO tx_sequence.sv(13) @ 25: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# UVM_INFO tx_sequence.sv(17) @ 25: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 25: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =8449
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 35: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 35: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 35: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =43674, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 35 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 35: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 35: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           1
+# UVM_INFO rx_sequence.sv(14) @ 35: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 35 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 35: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 35: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           1
+# UVM_INFO tx_sequence.sv(13) @ 35: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA PASSED	| Output: 0 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 35: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 35: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =42535
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 45: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 45: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 45: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =52123, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 45 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 45: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 45: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           2
+# UVM_INFO rx_sequence.sv(14) @ 45: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 45 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 45: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 45: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           2
+# UVM_INFO tx_sequence.sv(13) @ 45: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA PASSED	| Output: 0 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 45: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 45: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =14638
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 55: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 55: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 55: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =29122, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 55 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 55: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 55: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           3
+# UVM_INFO rx_sequence.sv(14) @ 55: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 55 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 55: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 55: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           3
+# UVM_INFO tx_sequence.sv(13) @ 55: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA FAILED	| Output: 43674 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 55: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 55: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =39532
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 65: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 65: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 65: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =43760, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 65 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 65: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 65: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           4
+# UVM_INFO rx_sequence.sv(14) @ 65: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 65 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 65: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 65: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           4
+# UVM_INFO tx_sequence.sv(13) @ 65: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA FAILED	| Output: 52123 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 65: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 65: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =12505
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 75: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 75: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 75: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =17756, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 75 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 75: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 75: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           5
+# UVM_INFO rx_sequence.sv(14) @ 75: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 75 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 75: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 75: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           5
+# UVM_INFO tx_sequence.sv(13) @ 75: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA FAILED	| Output: 29122 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 75: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 75: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =3187
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 85: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 85: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 85: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =30261, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 85 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 85: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 85: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           6
+# UVM_INFO rx_sequence.sv(14) @ 85: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 85 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 85: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 85: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           6
+# UVM_INFO tx_sequence.sv(13) @ 85: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA FAILED	| Output: 43760 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 85: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 85: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =28260
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 95: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 95: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 95: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =55310, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 95 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 95: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 95: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           7
+# UVM_INFO rx_sequence.sv(14) @ 95: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 95 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 95: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 95: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           7
+# UVM_INFO tx_sequence.sv(13) @ 95: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA FAILED	| Output: 17756 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 95: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 95: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =18103
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 105: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 105: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 105: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =9585, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 105 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 105: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 105: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           8
+# UVM_INFO rx_sequence.sv(14) @ 105: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 105 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 105: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 105: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           8
+# UVM_INFO tx_sequence.sv(13) @ 105: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA FAILED	| Output: 30261 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 105: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 105: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =37040
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 115: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 115: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 115: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =50689, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 115 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 115: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 115: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:           9
+# UVM_INFO rx_sequence.sv(14) @ 115: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] INSIDE RX SEQUENCE BODY
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 115 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 115: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 115: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:           9
+# UVM_INFO tx_sequence.sv(13) @ 115: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] INSIDE TX SEQUENCE BODY
+# | DATA FAILED	| Output: 55310 | ref_value = 0	
+# UVM_INFO tx_sequence.sv(17) @ 115: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence] Generate new item: tx_tready_i =1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO rx_sequence.sv(18) @ 115: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence] Generate new item: rx_tlast_i =1, rx_tvalid_i =1, rx_tdata_i =2585
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# UVM_INFO reference.sv(54) @ 125: uvm_test_top.e0.cov [reference write data_in] rx_tlast_i=0, rx_tvalid_i=0, rx_tdata_i=0, rx_tready_o=0
+# UVM_INFO rx_monitor.sv(48) @ 125: uvm_test_top.e0.agnt_rx.mon_rx [rx_monitor write data_in] rx_tlast_i =0, rx_tvalid_i =0, rx_tdata_i =0, rx_tready_o =0
+# UVM_INFO tx_monitor.sv(48) @ 125: uvm_test_top.e0.agnt_tx.mon_tx [tx_monitor] tx_tlast_o =1, tx_tvalid_o =1, tx_tdata_o =7555, tx_tready_i =1
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 125 ns  Iteration: 1  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a236 File: scoreboard.sv Line: 91
+# UVM_INFO scoreboard.sv(91) @ 125: uvm_test_top.e0.scb [Scoreboard write output] DUT DATA    0
+# UVM_INFO rx_sequence.sv(22) @ 125: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generate new RX item:          10
+# UVM_INFO rx_sequence.sv(24) @ 125: uvm_test_top.e0.agnt_rx.s0_rx@@seq_rx [rx_sequence]  Done Generation of RX items:          11
+# ** Warning: (vsim-PLI-3070) $sformatf : Too many arguments.
+#    Time: 125 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7ff4f64a100 File: scoreboard.sv Line: 86
+# UVM_INFO scoreboard.sv(86) @ 125: uvm_test_top.e0.scb [Scoreboard write reference] REF MODEL DATA    0
+# UVM_INFO tx_sequence.sv(21) @ 125: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generate new TX item:          10
+# UVM_INFO tx_sequence.sv(23) @ 125: uvm_test_top.e0.agnt_tx.s0_tx@@seq_tx [tx_sequence]  Done Generation of TX items:          11
+# | DATA FAILED	| Output: 9585 | ref_value = 0	
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 125: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  171
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [ENVIRONMENT CLASS]     4
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCOREBOARD]     8
+# [Scoreboard write output]    12
+# [Scoreboard write reference]    10
+# [TEST CLASS]     4
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# [reference write data_in]    10
+# [rx_agent]     4
+# [rx_driver]     4
+# [rx_monitor]     4
+# [rx_monitor write data_in]    10
+# [rx_sequence]    34
+# [rx_sequencer]     3
+# [tx_agent]     4
+# [tx_driver]     4
+# [tx_monitor]    14
+# [tx_sequence]    34
+# [tx_sequencer]     3
+# ** Note: $finish    : C:/questasim64_2024.2/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 125 ns  Iteration: 61  Instance: /uvmtb_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_2024.2/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+
