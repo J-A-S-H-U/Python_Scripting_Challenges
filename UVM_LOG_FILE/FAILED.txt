@@ -1,0 +1,8 @@
+# | DATA FAILED	| Output: 43674 | ref_value = 0	
+# | DATA FAILED	| Output: 52123 | ref_value = 0	
+# | DATA FAILED	| Output: 29122 | ref_value = 0	
+# | DATA FAILED	| Output: 43760 | ref_value = 0	
+# | DATA FAILED	| Output: 17756 | ref_value = 0	
+# | DATA FAILED	| Output: 30261 | ref_value = 0	
+# | DATA FAILED	| Output: 55310 | ref_value = 0	
+# | DATA FAILED	| Output: 9585 | ref_value = 0	

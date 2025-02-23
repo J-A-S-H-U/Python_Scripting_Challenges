@@ -1,0 +1,4 @@
+# UVM_INFO environment.sv(14) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Inside Constructor!
+# UVM_INFO environment.sv(20) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Build Phase!
+# UVM_INFO environment.sv(32) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Connect Phase!
+# UVM_INFO environment.sv(42) @ 0: uvm_test_top.e0 [ENVIRONMENT CLASS] Inside Run Phase!
