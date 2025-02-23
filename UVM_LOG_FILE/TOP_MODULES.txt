@@ -1,0 +1,25 @@
+# Top level modules:
+# 	fa
+# End time: 18:59:56 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Top level modules:
+# 	rca
+# End time: 18:59:56 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Top level modules:
+# 	lpffir_core
+# End time: 18:59:57 on Feb 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+# Top level modules:
+# 	lpffir_axis
+# End time: 18:59:57 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Top level modules:
+# 	uvmtb_top
+# End time: 18:59:57 on Feb 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
