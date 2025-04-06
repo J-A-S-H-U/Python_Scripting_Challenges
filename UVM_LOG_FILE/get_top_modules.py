@@ -10,7 +10,7 @@ def main(lines):
                     doc.write(lines[j].strip()+"\n")
                     if j==min(i + 4, len(lines))-1:
                         doc.write("\n")
-                        break
+                        
 
 
 
